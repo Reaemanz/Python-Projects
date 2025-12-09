@@ -1,0 +1,14 @@
+# black formatter configuration
+# This file is for internal use only and is not a solution to any exercise
+
+[tool.black]
+line-length = 79
+py36 = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    ch03-first-python-program
+  | \.venv
+  | venv
+)/
+'''
